@@ -24,6 +24,7 @@ h2{
     justify-content:space-between;
     margin: 10px 0 0 0;
     width: 100%;
+    flex-wrap: wrap;
 }
 .navbar .menu li {
     width: 49.4651241%;

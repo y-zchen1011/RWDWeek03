@@ -82,14 +82,15 @@ a{
     text-decoration: none;
     font: normal normal normal 20px/30px Noto Sans;
 }
+.d-f_jcsb{
+    display: flex;
+    justify-content: space-between;
+}
 .pt{
     padding-top: 64px;
 }
 .pb{
     padding-bottom: 80px;
-}
-.mb-49{
-    margin-bottom: 49px !important;
 }
 
 /*Navbar*/
@@ -103,9 +104,12 @@ a{
 }
 .menu{
     align-items: center;
-    width: 492px;
+    width: 30%;
     margin: 10px 0;
-    flex-wrap: wrap;
+}
+.navbar .menu li{
+    width: 25%;
+    text-align: center;
 }
 
 /*Footer*/
@@ -153,10 +157,7 @@ a{
 .copyright{
     margin-top: 24px;
 }
-.d-f_jcsb{
-    display: flex;
-    justify-content: space-between;
-}
+
 .footer p{
     color: #fff;
     font: normal normal normal 16px/24px Roboto;
@@ -201,9 +202,7 @@ a{
 }
 .conceptList{
     text-align: center;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .conceptList li{
     width: 208px;
@@ -217,9 +216,7 @@ a{
 
 /*Series Classic*/
 .designList{
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 60px 0 48px 0;
 }
 .designList li{
@@ -302,8 +299,6 @@ a{
 
 /*Recommendation*/
 .reccomList{
-    display: flex;
-    justify-content:space-between;
     flex-wrap: wrap;
     margin-bottom: 64px;
 }
@@ -438,13 +433,8 @@ a{
 .dashboard{
     background-color: #650300;
 }
-.innerDashboard{
-    display: flex;
-    justify-content: space-between;
-}
+
 .dashboardList{
-    display: flex;
-    justify-content: space-between;
     width: 484px;
 }
 .dashboardList a{
@@ -481,8 +471,6 @@ a{
 }
 .article .subTitle{
     font: normal normal  20px/30px Roboto;
-    display: flex;
-    justify-content: space-between;
 }
 .article .date{
     font: normal normal  16px/24px Roboto;
@@ -548,8 +536,6 @@ a{
     padding: 32px 0 304px 0 ;
 }
 .innerStoreList{
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 .storeCard{
@@ -623,10 +609,6 @@ a{
     display: inline-block;
 }
 
-.glassesBanner{
-    display: flex;
-    justify-content: space-between;
-}
 .glassesBanner img{
     width: 49.5%;
 }
@@ -643,8 +625,6 @@ a{
     text-align: center;
 }
 .productCards{
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin: 40px 0 6px 0;
 }
@@ -660,8 +640,6 @@ a{
     width: 100%;
 }
 .productInfo{
-    display: flex;
-    justify-content: space-between;
     font: normal normal normal 24px/36px Roboto;
     color: #000000;
 }
