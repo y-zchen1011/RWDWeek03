@@ -1,0 +1,382 @@
+/*Global*/
+.inner{
+    width: 345px;
+    margin: 0 auto;
+}
+.pt{
+    padding-top: 32px;
+}
+.pb{
+    padding-bottom: 32px;
+}
+h2{
+    font: normal normal bold 24px/48px Noto Sans;
+}
+
+
+
+/*NavBar*/
+.navbar{
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+.navbar .menu{
+    justify-content:space-between;
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+.navbar .menu li {
+    width: 49.4651241%;
+    border: 1px solid #fff;
+    margin-right: 0;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.navbar-brand{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+/*Footer*/
+.footer{
+    display: none;
+}
+.footerPhone{
+    display: block;
+    background-color: #AA0601;
+}
+.footerPhone .innerFooter{
+    padding: 24px 15px 20px 15px;
+}
+.footerPhone .footerNav{
+    align-items: flex-start;
+}
+.footerPhone .contactMethods{
+    width: 60%;
+}
+.footerPhone .contactMethods .iconPhone{
+    width: 20px;
+    margin-right: 4px;
+}
+.footerPhone .contactMethods .iconMail{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.footerPhone .contactMethods a{
+    font: normal normal normal 16px/30px Roboto;
+}
+.footerPhone .icons {
+    width: 30%;
+}
+.footerPhone .icons img{
+    width: 24px;
+}
+.footerPhone .copyright li{
+    font: normal normal normal 14px/21px Noto Sans;
+    margin-bottom: 7px;
+}
+.footerPhone .copyright p{
+    color: #fff;
+}
+.footerPhone .footerLogo{
+    display: block;
+    width: 46px;
+}
+
+
+                        /*Index*/
+/*Banner*/
+.banner{
+    background: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png") center;
+    background-size: cover;
+    height: 394px;
+}
+.bannerText{
+    padding: 163px 0;
+    text-align:right;
+}
+.bannerText h1{
+    font: normal normal bold 32px Noto Sans;
+}
+.bannerText h3{
+    font: normal normal 16px/30px PingFang TC;
+}
+
+/*Concept*/
+.concept h4 {
+    font: normal normal bold 20px/30px Noto Sans;
+    margin-bottom: 8px;
+}
+.conceptList li{
+    width: 99%;
+}
+.conceptList p{
+    font: normal normal normal 16px/24px Noto Sans;
+    margin: 0 auto;
+}
+.concept img {
+    margin: 32px 0 16px 0;
+}
+.orderPrice{
+    order:4;
+}
+
+
+
+/*Classic*/
+.designList{
+    width: 100%;
+    margin: 32px 0 40px 0;
+}
+.designList .picClassic{
+    margin-right: 0;
+    width: 100%;
+}
+.designList h3{
+    font: italic normal 900 28px/42px Roboto;
+    color: #FFFFFF;
+}
+.textHolder{
+    position: relative;
+}
+.categoryClassic{
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+}
+.reverse .categoryClassic{
+    justify-content: center;
+}
+.screenSize{
+    display: none;
+}
+.phoneSize{
+    display: inline-block;
+}
+
+
+
+/*Design*/
+.seriesDesign{
+    height: 696px;
+}
+.designCategory{
+    margin: 20px 0 0 0;
+}
+.designCategory li{
+    width: 100%;
+}
+.designCategory li:nth-child(1){
+    margin-bottom: 16px;
+}
+.designCategory li span{
+    font: normal normal bold 32px/25px Roboto;
+}
+
+
+/*Recommendation*/
+.reccomList{
+    margin: 20px 0 16px 0 ;
+}
+.reccomList li{
+    margin: 0 0 16px 0 ;
+    width: 99%;
+}
+
+/*Contact Form*/
+.innerContactForm{
+    width: 345px;
+}
+.contactForm h2{
+    margin-bottom: 20px;
+}
+.contactForm p{
+    font: normal normal normal 16px/24px Noto Sans;
+    margin-bottom: 8px;
+}
+.form-control{
+    width: 100%;
+}
+.btn{
+    width: 165px;
+    margin-top: 32px;
+}
+
+
+
+                                    /*QA*/
+.paginationBanner{
+    height: 143px;
+}
+.paginationBanner h1{
+    font: normal normal bold 28px/80px Noto Sans;
+    top: 50%;
+    bottom: 0;
+    transform: translate(0,20%);
+}
+.paginationBanner img{
+    margin-left: 8px;
+    width: 24px;
+}
+.questionAndAnswer{
+    padding: 24px 0 56px 0;
+}
+.questionAndAnswer h3{
+    font: normal normal normal 20px/63px Noto Sans;
+}
+.questionAndAnswer .questionList .question{
+    font: normal normal bold 16px/24px Noto Sans;
+}
+.questionAndAnswer .questionList .answer{
+    font: normal normal normal 14px/21px Noto Sans;
+    padding-left: 0;
+}
+
+                                    /*Blogs*/
+.dashboard{
+    display: none;
+}
+.article{
+    margin-bottom: 26px;
+}
+.article ul{
+    width: 100%;
+}
+
+.article img{
+    width: 100%;
+    height: 193px;
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+.article h2{
+    font: normal normal normal 20px Noto Sans;
+}
+.article .subTitle{
+    font: normal normal  16px/30px Roboto;
+}
+.article .date{
+    font: normal normal  14px/24px Roboto;
+}
+.article .articleContext{
+    display: none;
+}
+.article .more{
+    display: none;
+}
+.innerPagination{
+    padding: 8px 0 56px 0;
+}
+.paginationList{
+    width: 70%;
+    margin: 0 auto;
+}
+.pagination a{
+    font: normal normal normal 12px/18px Roboto;
+    padding: 8px;
+}
+.morePadSize{
+    font: normal normal bold 14px/21px Noto Sans;
+    color: #555555;
+    display: none;
+}
+
+
+
+
+
+
+/*Stores*/
+.placeSelector{
+    font: normal normal normal 14px/30px Noto Sans;
+    padding-top: 16px;
+}
+.placeSelector select{
+    height: 36px;
+    width: 73%;
+    padding-left: 12px;
+    font: normal normal normal 14px/24px Noto Sans;
+}
+.storeList{
+    padding: 20px 0 56px 0 ;
+}
+.storeCard{
+    font: normal normal normal 14px/21px PingFang TC;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.info{
+    padding: 4px 0 4px 16px;
+}
+.storeName{
+    padding: 8px 0 8px 16px;
+}
+
+
+/*Glasses*/
+.category{
+    width: 100%;
+    margin: 0 auto;
+}
+.categoryMenu li{
+    width: 33.3333%;
+    height: 35px;
+}
+.category a{
+    font: normal normal 14px/19px Roboto;
+    padding-top: 8px;
+}
+.category a:hover{
+    border-bottom: 11px solid #AA0601;
+}
+.iconDiamond{
+    width: 14.99px;
+}
+.iconSun, .iconThunder{
+    height: 15px;
+}
+.glassesBanner img{
+    width: 50%;
+    height: 144px;
+}
+.product{
+    padding-top: 30px;
+}
+.product h2{
+    font: normal normal  20px/48px Roboto;
+}
+.product h3{
+    font: normal normal normal 16px/36px Noto Sans;
+}
+.productCards{
+    margin: 20px 0 0 0;
+}
+.productList{
+    width: 100%;
+    margin-bottom: 32px;
+}
+.productListNew{
+    width: 100%;
+    margin-bottom: 32px;
+}
+.productInfo{
+    font: normal normal normal 16px/30px Roboto;
+}
+.productListNew .productInfo{
+    font: normal normal normal 16px/30px Roboto;
+}
+.productListNew span{
+    font: normal normal 16px/30px Roboto;
+}
+.colorBrown{
+    font-size: 16px;
+}
+.colorDarkBrown {
+    font-size: 16px;
+    margin-right: 4px;
+}
+
