@@ -1,0 +1,689 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*Global*/
+body{
+    font-family: 'Noto Sans';
+}
+
+.inner{
+    width: 1110px;
+    margin: 0 auto;
+}
+h1{
+    color: #650300;
+    font: normal normal bold 64px/96px Noto Sans;
+}
+h2{
+    text-align: center;
+    color: #AA0601;
+    font: normal normal bold 48px/72px Noto Sans;
+}
+h3{
+    color: #650300;
+    font: normal normal normal 36px/54px Noto Sans;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font: normal normal normal 20px/30px Noto Sans;
+}
+.pt{
+    padding-top: 64px;
+}
+.pb{
+    padding-bottom: 80px;
+}
+.mb-49{
+    margin-bottom: 49px !important;
+}
+
+/*Navbar*/
+.navbar{
+    background-color: #AA0601;
+    padding: 30px 88px;
+    flex-wrap: wrap;
+}
+.navbar-brand{
+    height: 48px;
+}
+.menu{
+    align-items: center;
+    width: 492px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+/*Footer*/
+.footerPhone{
+    display: none;
+}
+.footer{
+    background-color: #AA0601;
+}
+.innerFooter{
+    padding: 48px 0 41px 0;
+}
+.footerNav{
+    margin-bottom: 32px;
+}
+.footer .menu{
+    width: 480px;
+    font: normal normal normal 16px/24px Noto Sans;
+}
+.icons{
+    width: 208px;
+    align-items: center;
+}
+.icons a{
+    display: inline-block;
+}
+.icons img{
+    width: 48px;
+}
+.iconPhone{
+    width: 38px;
+    margin-right: 20px;
+}
+.iconMail{
+    width: 44px;
+    height: 40px;
+    margin-right: 14px;
+}
+.contactMethods li{
+    margin-bottom: 17px;
+}
+.contactMethods a{
+    font:normal normal normal 36px/54px Roboto;
+}
+.copyright{
+    margin-top: 24px;
+}
+.d-f_jcsb{
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    color: #fff;
+    font: normal normal normal 16px/24px Roboto;
+    line-height:51px
+}
+.rights{
+    width: 440px;
+}
+.terms{
+    width: 188px;
+    font: normal normal normal 14px/21px Noto Sans;
+    line-height:51px
+}
+
+
+
+
+                                /*Index*/
+/*Banner*/
+.banner{
+    background: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png");
+    background-size: cover;
+    height: 840px;
+}
+.bannerText{
+    padding: 350px 0;
+    text-align:right;
+}
+
+/*Concept*/
+.concept, .contactForm{
+    background-color: #AA06010D;
+}
+.concept h4 {
+    font: normal normal bold 24px/36px Noto Sans;
+    color: #650300;
+    margin-bottom: 4px;
+}
+.concept p{
+    font: normal normal normal 16px/24px Noto Sans;
+    text-align: left;
+}
+.conceptList{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.conceptList li{
+    width: 208px;
+}
+.concept img {
+    height: 100px;
+    margin: 40px 0;
+}
+
+
+
+/*Series Classic*/
+.designList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 60px 0 48px 0;
+}
+.designList li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.designList .reverse{
+    flex-direction: row-reverse;
+}
+.designList .picClassic{
+    margin-right: 30px;
+    width: 635px;
+}
+.reverse .picClassic{
+    margin-right: 0;
+}
+.categoryClassic{
+    display: flex;
+    align-items: center;
+    width: 251px;
+}
+.reverse .categoryClassic{
+    flex-direction: row-reverse;
+}
+.designList .diamond{
+    width: 48px;
+    height: 37px;
+    margin-right: 8px;
+}
+.designList .sun,.designList .thunder{
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+.designList h3{
+    font: italic normal 900 48px/72px Roboto;
+    margin-right: 30px;
+}
+.phoneSize{
+    display: none;
+}
+
+
+/*Series Design*/
+.seriesDesign{
+    background: url("https://hexschool.github.io/webLayoutTraining1st/week3/bg.png");
+    background-size: cover;
+    height: 743px;
+}
+.seriesDesign h2{
+    color: #fff;
+}
+.designCategory{
+    flex-wrap: wrap;
+    margin: 60px 0 16px 0;
+}
+.designCategory li{
+    position: relative;
+    width: 50%;
+    background-size :cover;
+}
+.designCategory li span{
+    font: normal normal bold 72px Roboto;
+    color: #AA0601;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*.overlay{
+    background-color: rgba(255,255,255,0.5) ;
+
+}*/
+.Pic{
+    width: 96%;
+}
+
+
+/*Recommendation*/
+.reccomList{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+.reccomList li{
+    width: 23%;
+    border: 1px solid #DEE2E6;
+}
+.reccomList img{
+    width: 100%;
+    margin-bottom: 14px;
+}
+.reccomList li:nth-child(4){
+    margin-right: 0;
+}
+.recommendation .name{
+    font: normal normal 14px/21px Roboto;
+    color: #212529;
+    margin-bottom: 7px;
+    padding: 0 16px;
+}
+.recommendation .recommContext{
+    font: normal normal normal 16px/24px Roboto;
+    color: #212529;
+    margin-bottom: 10px;
+    padding: 0 16px;
+}
+.recommendation .updateTime{
+    font: normal normal normal 14px/21px Roboto;
+    color: #707070;
+    padding: 0 16px 15px 16px;
+}
+
+
+/*Contact Form*/
+.contactForm h2{
+    color: #000;
+    margin-bottom: 24px;
+}
+.innerContactForm{
+    width: 730px;
+}
+.contactForm p{
+    font: normal normal normal 20px/30px Noto Sans;
+    margin-bottom: 20px;
+}
+.form-control{
+    width: 100%;
+    background-color: #AA06010D;
+    border: 1px solid #000000;
+    height: 50px;
+    margin-bottom: 16px;
+    margin-top: 4px;
+}
+.textarea{
+    width: 100%;
+}
+.checkbox, .textarea{
+    border: 1px solid #000000;
+    background-color: #AA06010D;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    background-color: #AA0601;
+    width: 360px;
+    font: normal normal bold 16px/24px Noto Sans;
+    padding: 15px 0;
+    border: none;
+    color: #fff;
+    margin-top: 42px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(234, 11, 11, 0.5);
+    transition:background-color 0.3s;
+}
+
+
+
+
+
+
+
+
+                /*QA*/
+/*Banner*/
+.paginationBanner{
+    background: url("https://hexschool.github.io/webLayoutTraining1st/week3/qa.png") bottom center;
+    background-size: cover;
+    height: 304px;
+    position: relative;
+}
+.paginationBanner h1{
+    font: normal normal bold 64px/80px Noto Sans;
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    transform: translate(0,45%);
+}
+.paginationBanner img{
+    margin-left: 24px;
+}
+
+
+/*Question*/
+
+.questionAndAnswer{
+    padding: 80px 0 264px;
+}
+.questionAndAnswer h3{
+    font: normal normal bold 32px/63px Noto Sans;
+    color: #000000;
+    margin-bottom: 36px;
+}
+.questionAndAnswer .question{
+    font: normal normal bold 20px/22px Noto Sans;
+    margin-bottom: 16px;
+}
+.questionAndAnswer .answer{
+    font: normal normal normal 16px/24px Noto Sans;
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+
+
+
+
+                /*Blog*/
+/*Dashboard*/
+.dashboard{
+    background-color: #650300;
+}
+.innerDashboard{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboardList{
+    display: flex;
+    justify-content: space-between;
+    width: 484px;
+}
+.dashboardList a{
+    font: normal normal bold 20px/24px Noto Sans;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 0;
+}
+.dashboardList a:hover{
+    color: rgba(255,255,255,0.7);
+    transition:color 0.3s;
+}
+.articleList{
+    padding-top: 82px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.article ul{
+    width: 48%;
+}
+.article img{
+    margin-right: 30px;
+    width: 48%;
+}
+.article h2{
+    font: normal normal normal 32px/63px Noto Sans;
+    text-align: left;
+}
+.article .subTitle{
+    font: normal normal  20px/30px Roboto;
+    display: flex;
+    justify-content: space-between;
+}
+.article .date{
+    font: normal normal  16px/24px Roboto;
+    text-align: right;
+}
+.article .articleContext{
+    font: normal normal normal 20px/30px Noto Sans;
+    color: #555555;
+    margin: 24px 0 19px 0 ;
+}
+
+.article .more{
+    font: normal normal 900 36px/54px Roboto;
+    color: #650300;
+    text-align: right;
+}
+.morePadSize{
+    font: normal normal bold 14px/21px Noto Sans;
+    color: #555555;
+    display: none;
+}
+
+.innerPagination{
+    padding: 40px 0 170px 0;
+}
+.paginationList{
+    display: flex;
+    justify-content: center;
+}
+.pagination li{
+    border: 1px solid #555555;
+}
+.pagination li:nth-child(7){
+    background-color: #F2F2F2;
+}
+.pagination a{
+    font: normal normal normal 19px/29px Roboto;
+    color: #555555;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.pagination a:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+
+                /*Stores*/
+
+.placeSelector{
+    font: normal normal normal 24px/30px Noto Sans;
+    padding-top: 22px;
+}
+.placeSelector select{
+    height: 45px;
+    width: 324px;
+    padding-left: 19px;
+    font: normal normal normal 18px/24px Noto Sans;
+    color: #495057;
+    margin-left: 20px;
+}
+.storeList{
+    padding: 32px 0 304px 0 ;
+}
+.innerStoreList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.storeCard{
+    color: #212529;
+    font: normal normal normal 20px/30px Noto Sans;
+    border: 1px solid #00000020;
+    width: 350px;
+    margin-bottom: 32px;
+}
+.storeCard img{
+    width: 100%;
+}
+
+.info{
+    padding: 0 28px 0 24px;
+}
+.StoreCardsIcons img{
+    width: 21px;
+    height: 21px;
+    margin-right: 12px;
+}
+.storeName{
+    font: normal normal normal 24px/36px Noto Sans;
+    border: 1px solid #00000020;
+    padding: 12px 28px 12px 24px;
+}
+
+.details a{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 135px;
+}
+.details a:hover{
+    background-color: #00000020;
+    color: #000;
+}
+
+
+/*Glasses*/
+.category{
+    width: 1386px;
+    margin: 0 auto;
+}
+.categoryMenu{
+    display: flex;
+    justify-content: center;
+}
+.categoryMenu li{
+    width: 460px;
+    height: 103px;
+    border: 1px solid #DCDCDC;
+    text-align: center;
+}
+.category a{
+    font: normal normal  42px/66px Roboto;
+    color: #000000;
+    display: block;
+    padding-top: 24px;
+}
+.category a:hover{
+    border-bottom: 13px solid #AA0601;
+}
+.iconDiamond{
+    width: 47px;
+    display: inline-block;
+}
+.iconSun, .iconThunder{
+    height: 48px;
+    display: inline-block;
+}
+
+.glassesBanner{
+    display: flex;
+    justify-content: space-between;
+}
+.glassesBanner img{
+    width: 49.5%;
+}
+.product{
+    padding-top: 88px;
+}
+.product h2{
+    font: normal normal  42px/63px Roboto;
+    color: #000000;
+}
+.product h3{
+    font: normal normal normal 32px/48px Noto Sans;
+    color: #000000;
+    text-align: center;
+}
+.productCards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0 6px 0;
+}
+.productList{
+    width: 255px;
+    margin-bottom: 104px;
+}
+.productListNew{
+    width: 350px;
+    margin-bottom: 112px;
+}
+.productList img, .productListNew img{
+    width: 100%;
+}
+.productInfo{
+    display: flex;
+    justify-content: space-between;
+    font: normal normal normal 24px/36px Roboto;
+    color: #000000;
+}
+.productListNew .productInfo{
+    font: normal normal normal 18px/30px Roboto;
+}
+.productList span{
+    color: #AA0601;
+}
+.productListNew span{
+    color: #AA0601;
+    font: normal normal 18px/30px Roboto;
+}
+.colorBrown{
+    border-radius: 4px;
+    color: #B75929;
+    font-size: 24px;
+
+}
+.colorDarkBrown {
+    border-radius: 4px;
+    color: #5F3E2D;
+    font-size: 24px;
+    margin-right: 8px;
+}

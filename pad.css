@@ -1,0 +1,359 @@
+/*Global*/
+.inner{
+    width: 690px;
+    margin: 0 auto;
+}
+.pt{
+    padding-top: 40px;
+}
+h2{
+    font: normal normal bold 32px/48px Noto Sans;
+}
+
+
+
+/*NavBar*/
+.navbar{
+    padding: 30px 39px;
+}
+.navbar .menu{
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 420px;
+}
+.navbar .menu li{
+    margin-right: 40px;
+}
+.navbar .menu li:nth-child(4){
+    margin-right: 0;
+}
+.navbar-brand{
+    width: 15%;
+}
+
+
+/*Footer*/
+.footerPhone{
+    display: none;
+}
+.innerFooter{
+    padding: 40px 39px;
+}
+.footerNav{
+    margin-bottom: 24px;
+}
+.footer .menu{
+    width: 432px;
+}
+.icons{
+    width: 120px;
+}
+.icons img{
+    width: 24px;
+}
+.iconPhone{
+    width: 26px;
+    margin-right: 12px;
+}
+.iconMail{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+.rights{
+    width: 50%;
+    font: normal normal normal 16px/24px Roboto;
+    justify-content: flex-start;
+}
+.terms{
+    width: 40%;
+    font: normal normal normal 14px/21px Noto Sans;
+    line-height:51px;
+    justify-content: flex-end;
+}
+.terms li:nth-child(1){
+    margin-right: 24px;
+}
+.footerLogo{
+    display: none;
+}
+
+
+                                    /*Index*/
+/*Banner*/
+.banner{
+    background: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png") center;
+    height: 840px;
+}
+.bannerText{
+    padding: 373px 0;
+    text-align:right;
+}
+.bannerText h1{
+    font: normal normal bold 48px/72px Noto Sans;
+}
+.bannerText h3{
+    font: normal normal 20px/30px PingFang TC;
+}
+
+/*Concept*/
+.conceptList li{
+    width: 50%;
+}
+.conceptList p{
+    width: 237px;
+    margin: 0 auto;
+}
+.concept img {
+    margin: 32px 0 16px 0;
+}
+.orderPrice{
+    order:3;
+}
+
+
+
+/*Classic*/
+.designList .reverse{
+    flex-direction: row;
+}
+.designList .picClassic{
+    width: 390px;
+}
+.designList h3{
+    font: italic normal 900 28px/42px Roboto;
+}
+.designList{
+    margin: 32px 0 40px 0;
+}
+.designList li{
+    margin-bottom: 8px;
+}
+.reverse .picClassic{
+    margin-right: 30px;
+}
+.reverse .categoryClassic{
+    justify-content: flex-end;
+}
+.designList .diamond{
+    width: 32px;
+    height: 25px;
+}
+.designList .sun,.designList .thunder{
+    width: 32px;
+    height: 32px;
+}
+.designList .thunder{
+    width: 23px;
+    height: 32px;
+}
+.phoneSize{
+    display: none;
+}
+
+/*Design*/
+.seriesDesign{
+    height: 437px;
+}
+.designCategory{
+    margin: 32px 0 0 0;
+}
+.designCategory li span{
+    font: normal normal bold 32px/25px Roboto;
+}
+
+
+/*Recommendation*/
+.reccomList{
+    margin: 32px 0 0 0 ;
+}
+.reccomList li{
+    margin: 0 0 28px 0 ;
+    width: 48%;
+}
+
+/*Contact Form*/
+.innerContactForm{
+    width: 450px;
+}
+.contactForm h2{
+    margin-bottom: 16px;
+}
+.contactForm p{
+    font: normal normal normal 16px/24px Noto Sans;
+    margin-bottom: 12px;
+}
+.form-control{
+    width: 100%;
+    background-color: #AA06010D;
+    border: 1px solid #000000;
+    height: 36px;
+    margin-bottom: 8px;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    background-color: #AA0601;
+    width: 210px;
+    font: normal normal bold 14px/21px Noto Sans;
+    padding: 7.5px 0;
+    border: none;
+    color: #fff;
+    margin-top: 42px;
+}
+
+
+
+
+
+
+
+                    /*QA*/
+.paginationBanner h1{
+    font: normal normal bold 48px/80px Noto Sans;
+}
+.questionAndAnswer{
+    padding: 40px 0 64px;
+}
+
+
+
+                    /*Blogs*/
+.dashboardList a{
+    font: normal normal bold 16px/24px Noto Sans;
+    padding: 16px 0;
+}
+.dashboardList{
+    width: 50%;
+}
+.articleList{
+    padding-top: 40px;
+}
+.article{
+    margin-bottom: 32px;
+}
+.article img{
+    height: 191px;
+    width: 45%;
+}
+.article ul{
+    width: 48%;
+}
+.article h2{
+    font: normal normal normal 20px Noto Sans;
+}
+.article .subTitle{
+    font: normal normal  16px/30px Roboto;
+}
+.article .date{
+    font: normal normal  14px/24px Roboto;
+}
+.article .articleContext{
+    font: normal normal normal 14px/21px Noto Sans;
+    margin: 16px 0 0 0 ;
+}
+.article br{
+    display: none;
+}
+.article .hidden{
+    display: none;
+}
+.article .more{
+    font: normal normal bold 14px/21px Noto Sans;
+    color: #555555;
+    text-transform: lowercase;
+    display: none;
+}
+.morePadSize{
+    font: normal normal bold 14px/21px Noto Sans;
+    color: #555555;
+    display: inline-block;
+}
+
+
+                        /*Stores*/
+.placeSelector{
+    font: normal normal normal 16px/30px Noto Sans;
+}
+.placeSelector select{
+    height: 46px;
+    width: 237px;
+    padding-left: 20px;
+    font: normal normal normal 16px/24px Noto Sans;
+}
+.storeList{
+    padding: 24px 0 104px 0 ;
+}
+.storeCard{
+    font: normal normal normal 14px/21px PingFang TC;
+    width: 330px;
+    margin-bottom: 20px;
+}
+.info{
+    padding: 4px 0 4px 16px;
+}
+.storeName{
+    font: normal normal bold 16px/24px Noto Sans;
+    padding: 8px 28px 8px 16px;
+}
+.details a{
+    padding: 16px 137px;
+    font: normal normal normal 14px/21px Noto Sans;
+}
+
+
+                        /*Glasses*/
+.category{
+    width: 100%;
+    margin: 0 auto;
+}
+.categoryMenu li{
+    width: 33%;
+    height: 69px;
+}
+.category a{
+    font: normal normal  28px/42px Roboto;
+    padding-top: 16px;
+}
+.category a:hover{
+    border-bottom: 11px solid #AA0601;
+}
+.iconDiamond{
+    width: 32px;
+}
+.iconSun, .iconThunder{
+    height: 32px;
+}
+.glassesBanner img{
+    width: 50%;
+    height: 309px;
+}
+.product{
+    padding-top: 40px;
+}
+.product h2{
+    font: normal normal  32px/48px Roboto;
+}
+.product h3{
+    font: normal normal normal 24px/36px Noto Sans;
+}
+.productCards{
+    margin: 32px 0 6px 0;
+}
+.productList{
+    width: 48%;
+    margin-bottom: 72px;
+}
+.productListNew{
+    width: 48%;
+    margin-bottom: 72px;
+}
+.productInfo{
+    font: normal normal normal 24px/30px Roboto;
+}
+.productListNew .productInfo{
+    font: normal normal normal 24px/30px Roboto;
+}
+.productListNew span{
+    font: normal normal 24px/30px Roboto;
+}
