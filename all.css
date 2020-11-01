@@ -52,15 +52,18 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+*,*:before,*:after{
+    box-sizing: border-box
+}
 
 /*Global*/
+
 body{
     font-family: 'Noto Sans';
 }
 
 .inner{
-    width: 1110px;
+    max-width: 1110px;
     margin: 0 auto;
 }
 h1{
@@ -384,7 +387,7 @@ a{
 
 
 
-                /*QA*/
+                                    /*QA*/
 /*Banner*/
 .paginationBanner{
     background: url("https://hexschool.github.io/webLayoutTraining1st/week3/qa.png") bottom center;
@@ -428,7 +431,7 @@ a{
 
 
 
-                /*Blog*/
+                                /*Blog*/
 /*Dashboard*/
 .dashboard{
     background-color: #650300;
@@ -482,11 +485,14 @@ a{
     margin: 24px 0 19px 0 ;
 }
 
-.article .more{
-    font: normal normal 900 36px/54px Roboto;
+.more{
+    font: normal normal 900 36px/54px Roboto ;
     color: #650300;
+    width: 100%;
+    display: block;
     text-align: right;
 }
+
 .morePadSize{
     font: normal normal bold 14px/21px Noto Sans;
     color: #555555;

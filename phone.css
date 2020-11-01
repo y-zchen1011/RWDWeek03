@@ -1,6 +1,6 @@
 /*Global*/
 .inner{
-    width: 345px;
+    max-width: 345px;
     margin: 0 auto;
 }
 .pt{
@@ -56,7 +56,7 @@ h2{
     align-items: flex-start;
 }
 .footerPhone .contactMethods{
-    width: 60%;
+    width: 70%;
 }
 .footerPhone .contactMethods .iconPhone{
     width: 20px;

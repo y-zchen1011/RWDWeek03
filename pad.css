@@ -1,6 +1,6 @@
 /*Global*/
 .inner{
-    width: 690px;
+    max-width: 690px;
     margin: 0 auto;
 }
 .pt{
@@ -256,7 +256,7 @@ h2{
 .article .hidden{
     display: none;
 }
-.article .more{
+.more{
     font: normal normal bold 14px/21px Noto Sans;
     color: #555555;
     text-transform: lowercase;
