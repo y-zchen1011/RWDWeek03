@@ -27,7 +27,7 @@ h2{
     flex-wrap: wrap;
 }
 .navbar .menu li {
-    width: 49.4651241%;
+    width: 50%;
     border: 1px solid #fff;
     margin-right: 0;
     text-align: center;
@@ -56,7 +56,10 @@ h2{
     align-items: flex-start;
 }
 .footerPhone .contactMethods{
-    width: 70%;
+    width: 65%;
+}
+.footerPhone .contactMethods li{
+    margin-bottom: 7px;
 }
 .footerPhone .contactMethods .iconPhone{
     width: 20px;
@@ -71,17 +74,20 @@ h2{
     font: normal normal normal 16px/30px Roboto;
 }
 .footerPhone .icons {
-    width: 30%;
+    width: 35.5%;
 }
 .footerPhone .icons img{
     width: 24px;
 }
 .footerPhone .copyright li{
-    font: normal normal normal 14px/21px Noto Sans;
     margin-bottom: 7px;
+}
+.footerPhone .copyright li a{
+    font: normal normal normal 14px/21px Noto Sans;
 }
 .footerPhone .copyright p{
     color: #fff;
+    font: normal normal normal 14px/21px Roboto;
 }
 .footerPhone .footerLogo{
     display: block;
@@ -95,10 +101,6 @@ h2{
     background: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png") center;
     background-size: cover;
     height: 394px;
-}
-.bannerText{
-    padding: 163px 0;
-    text-align:right;
 }
 .bannerText h1{
     font: normal normal bold 32px Noto Sans;

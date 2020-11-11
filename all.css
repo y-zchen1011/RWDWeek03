@@ -107,13 +107,14 @@ a{
 }
 .menu{
     align-items: center;
-    width: 30%;
+    width: 45%;
     margin: 10px 0;
 }
-.navbar .menu li{
-    width: 25%;
-    text-align: center;
+.navbar .menu li a{
+    font: normal normal normal 20px/30px Noto Sans;
+    display: block;
 }
+
 
 /*Footer*/
 .footerPhone{
@@ -129,11 +130,11 @@ a{
     margin-bottom: 32px;
 }
 .footer .menu{
-    width: 480px;
+    width: 41.7%;
     font: normal normal normal 16px/24px Noto Sans;
 }
 .icons{
-    width: 208px;
+    width: 18.7%;
     align-items: center;
 }
 .icons a{
@@ -167,12 +168,19 @@ a{
     line-height:51px
 }
 .rights{
-    width: 440px;
+    width: 39.7%;
 }
 .terms{
-    width: 188px;
-    font: normal normal normal 14px/21px Noto Sans;
-    line-height:51px
+    width: 17%;
+}
+.terms li{
+    width: 49%;
+}
+.terms li a{
+    font: normal normal normal 13px/21px Noto Sans;
+    line-height:51px;
+    display: block;
+    text-align: right;
 }
 
 
@@ -184,9 +192,12 @@ a{
     background: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png");
     background-size: cover;
     height: 840px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 .bannerText{
-    padding: 350px 0;
     text-align:right;
 }
 
@@ -208,7 +219,7 @@ a{
     flex-wrap: wrap;
 }
 .conceptList li{
-    width: 208px;
+    width: 23%;
 }
 .concept img {
     height: 100px;

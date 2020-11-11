@@ -19,11 +19,7 @@ h2{
 .navbar .menu{
     justify-content: space-between;
     margin: 10px 0;
-    width: 60%;
-}
-
-.navbar .menu li:nth-child(4){
-    margin-right: 0;
+    width: 70%;
 }
 .navbar-brand{
     width: 15%;
@@ -41,10 +37,13 @@ h2{
     margin-bottom: 24px;
 }
 .footer .menu{
-    width: 432px;
+    width: 70.7%;
+}
+.footer .menu li a{
+    font: normal normal normal 16px/24px Noto Sans;
 }
 .icons{
-    width: 120px;
+    width: 19.7%;
 }
 .icons img{
     width: 24px;
@@ -58,20 +57,23 @@ h2{
     height: 32px;
     margin-right: 8px;
 }
+.contactMethods a{
+    font: normal normal normal 20px/30px Roboto;
+}
 .rights{
-    width: 50%;
+    width: 60%;
     font: normal normal normal 16px/24px Roboto;
     justify-content: flex-start;
 }
 .terms{
-    width: 40%;
-    font: normal normal normal 14px/21px Noto Sans;
-    line-height:51px;
+    width: 25%;
     justify-content: flex-end;
 }
-.terms li:nth-child(1){
-    margin-right: 24px;
+.terms li a{
+    font: normal normal normal 14px/21px Noto Sans;
+    line-height:51px;
 }
+
 .footerLogo{
     display: none;
 }
@@ -82,10 +84,6 @@ h2{
 .banner{
     background: url("https://hexschool.github.io/webLayoutTraining1st/week3/banner.png") center;
     height: 840px;
-}
-.bannerText{
-    padding: 373px 0;
-    text-align:right;
 }
 .bannerText h1{
     font: normal normal bold 48px/72px Noto Sans;
@@ -325,6 +323,7 @@ h2{
 .glassesBanner img{
     width: 50%;
     height: 309px;
+
 }
 .product{
     padding-top: 40px;
